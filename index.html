@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portofolio - Afrizal Ardiansyah</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Portofolio</a>
+      <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon bg-light"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#portofolio">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h1>Hello, I'm <span class="text-info">Afrizal Ardiansyah</span></h1>
+      <p>Web Developer | Designer | Student</p>
+      <a href="#portofolio" class="btn btn-info px-5 mt-5">View My Work</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="row align-items-center">
+        <div class="col-md-3">
+          <img src="src/profil.JPG" class="img-fluid rounded shadow" alt="profile">
+        </div>
+        <div class="col-md-6">
+          <h3>Hello! I'm Afrizal Ardiansyah</h3>
+          <p>
+           Siswa SMK yang aktif, kreatif, dan terbuka pada pengalaman baru. Memiliki semangat belajar serta minat yang kuat dalam pengembangan backend dan web development, khususnya dalam memahami pengelolaan basis data. Siap berkembang dan terus meningkatkan keterampilan di bidang pengembangan aplikasi berbasis web
+          </p>
+          <a href="file/Afrizal Ardiansyah XI RPL D.pdf" class="btn btn-outline-dark mt-3" download>Download CV</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Portofolio Section -->
+<section id="portofolio" class="py-5">
+  <div class="container">
+    <h2 class="section-title">Portofolio</h2>
+    <div class="row g-4">
+
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm d-flex flex-column">
+          <a href="https://github.com/ryota-rjyl/Facebook-kw" target="_blank">
+            <img src="src/Screenshot (14).png" class="card-img-top" alt="project">
+          </a>
+          <div class="card-body flex-grow-1">
+            <h5 class="card-title">Homepage Facebook Sederhana</h5>
+            <p class="card-text">Membuat Homepage Facebook Sederhana menggunakan Flutter</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm d-flex flex-column">
+          <a href="https://www.behance.net/gallery/235585791/OrdMood" target="_blank">
+            <img src="src/OrdMood  V2_ 1920x960 (1).png" class="card-img-top" alt="project">
+          </a>
+          <div class="card-body flex-grow-1">
+            <h5 class="card-title">Desain UI FIGMA</h5>
+            <p class="card-text">Saya membuat sebuah UI aplikasi bernama OrdMood dengan menggunakan Figma.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm d-flex flex-column">
+          <a href="file/Afrizal Ardiansyah.pdf">
+            <img src="https://images.seeklogo.com/logo-png/47/2/mongodb-logo-png_seeklogo-477312.png" class="card-img-top" alt="project">
+        </a>
+          <div class="card-body flex-grow-1">
+            <h5 class="card-title">MongoDB</h5>
+            <p class="card-text">Pengimplementasian dan membuat database sederhana menggunakan MongoDB</p>
+          </div>
+        </div>
+      </div>
+
+        <div class="col-md-4">
+        <div class="card h-100 shadow-sm d-flex flex-column">
+          <a href="https://github.com/ryota-rjyl/Kalkulator-Java" target="_blank">
+            <img src="src/Screenshot (15).png" class="card-img-top" alt="project">
+          </a>
+          <div class="card-body flex-grow-1">
+            <h5 class="card-title">Kalkulator Sederhana</h5>
+            <p class="card-text">Membuat Kalkulator Sederhana Menggunakan Netbeansi</p>
+          </div>
+        </div>
+      </div>
+      
+
+    </div>
+  </div>
+</section>
+
+  <!-- Contact Section -->
+<section id="contact" class="py-5">
+  <div class="container">
+    <h2 class="section-title text-center mb-4">Contact Me</h2>
+
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-8">
+
+        <form action="https://formsubmit.co/afrizalardiansyah72@gmail.com" method="POST">
+          <input type="hidden" name="_captcha" value="false">
+
+          <div class="mb-3">
+            <label class="form-label">Name</label>
+            <input type="text" class="form-control" name="name" required>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Email</label>
+            <input type="email" class="form-control" name="email" required>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Message</label>
+            <textarea class="form-control" name="message" rows="4" required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-info w-100">Send Message</button>
+        </form>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Afrizal Ardiansyah | All Rights Reserved</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
